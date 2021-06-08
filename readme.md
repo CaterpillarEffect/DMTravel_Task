@@ -75,6 +75,7 @@ Below are the dependencies are being used for this project :
     * Cucumber
     * Serenity
     * JavaFaker
+    * Selenium Webdriver
   
 
 ###Build and run your project : 
