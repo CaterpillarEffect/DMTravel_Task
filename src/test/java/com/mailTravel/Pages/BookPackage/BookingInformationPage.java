@@ -14,7 +14,7 @@ public class BookingInformationPage extends PageObject {
 
 
         BrowserUtils.waitFor(5);
-        WebElement e = getDriver().findElement(By.id("calbox-98f14691e2018479869775ac1879f0dd-1"));
+        WebElement e = getDriver().findElement(By.name("seldate"));
 
         return e;
 
