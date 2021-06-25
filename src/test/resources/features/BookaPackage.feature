@@ -5,10 +5,10 @@ Feature: MailTravel
     Given user is on the homepage
     And user verifies Homepage Title
     And user searches "India"
-    And user clicks More Info button of result 1
+    And user clicks More Info button of result 2
     Then user checks that the following information is displayed:
       | days  | 9      |
-      | price | £1,335 |
+      | price | £1,259 |
     And "phoneNumber" is displayed
     When user clicks on Itinerary
     Then verifies all days of Itinerary display Information
