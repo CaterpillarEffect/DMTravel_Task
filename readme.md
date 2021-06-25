@@ -7,7 +7,7 @@ Project Title | SDET Take Home Test
 Build | Maven
 Framework |Java Cucumber with Junit , Selenium Webdriver - Serenity Steps 
 
-######Requirements
+###### Requirements
     • Perform automation UI testing for the following test cases using the following tools:
 
         • Java
@@ -60,13 +60,13 @@ Framework |Java Cucumber with Junit , Selenium Webdriver - Serenity Steps
         13. Also, in the main mailtravel.co.uk page, click on “Sign up to our Alerts”, fill out some dummy information and make sure you are getting the confirmation page.
 
 
-###Installation guide: 
+### Installation guide: 
     This is a Maven project. 
     So it's assumed that the host running this code has Java and Maven installed and JAVA_HOME already set. 
 
     Here is the guide for maven installation just in case : https://maven.apache.org/install.html
 
-###Dependencies
+### Dependencies
 Project gets all dependencies from Maven repository. So no additional installation needed.
 
 Below are the dependencies are being used for this project :
@@ -78,7 +78,7 @@ Below are the dependencies are being used for this project :
     * Selenium Webdriver
   
 
-###Build and run your project : 
+### Build and run your project : 
 This is a Maven project and tests are written in JUnit . so we use Maven command line commands to run the project from terminal as below to pick up JUnit tests and see the Serenity reports:
 ````
 mvn verify
@@ -89,5 +89,5 @@ mvn clean verify
 ````
 
 A link will then be provided where you can find your Serenity report in the target folder.
-###Framework 
+### Framework 
 Framework is built with Cucumber BDD in combination with Serenity but can be expanded to integrate more advanced Serenity report features.  It is created using  basic Page Object Model design pattern with Serentity Steps but it can be improved if needed.
