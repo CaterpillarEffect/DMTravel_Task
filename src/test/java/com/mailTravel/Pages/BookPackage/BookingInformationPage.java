@@ -13,7 +13,7 @@ public class BookingInformationPage extends PageObject {
     public WebElement Dateselected() {
 
 
-        BrowserUtils.waitFor(5);
+        BrowserUtils.waitForClickablility(By.name("seldate"),5);
         WebElement e = getDriver().findElement(By.name("seldate"));
 
         return e;
